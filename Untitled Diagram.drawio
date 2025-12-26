@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="Page-1" id="OLRjr1Lp-JhKfJ7_HcnM">
+    <mxGraphModel dx="1854" dy="1251" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="S4u59_WlSWAvhTUVBORO-23" edge="1" parent="1" source="S4u59_WlSWAvhTUVBORO-20" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.482;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" target="S4u59_WlSWAvhTUVBORO-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u59_WlSWAvhTUVBORO-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Power System (Solar / Battery)" vertex="1">
+          <mxGeometry height="60" width="220" x="360" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u59_WlSWAvhTUVBORO-21" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="420" width="420" x="-90" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u59_WlSWAvhTUVBORO-8" parent="S4u59_WlSWAvhTUVBORO-21" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="420" width="420" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u59_WlSWAvhTUVBORO-10" parent="S4u59_WlSWAvhTUVBORO-21" style="rounded=1;whiteSpace=wrap;html=1;" value="DSLR" vertex="1">
+          <mxGeometry height="60" width="120" x="55" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u59_WlSWAvhTUVBORO-11" parent="S4u59_WlSWAvhTUVBORO-21" style="whiteSpace=wrap;html=1;rounded=1;" value="GO PRO" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u59_WlSWAvhTUVBORO-13" parent="S4u59_WlSWAvhTUVBORO-21" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" value="EDGE CAMERA RIG&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="210" x="80" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u59_WlSWAvhTUVBORO-15" parent="S4u59_WlSWAvhTUVBORO-21" style="rounded=1;whiteSpace=wrap;html=1;" value="&amp;nbsp;3-Axis Gimbal (Servo Controlled)" vertex="1">
+          <mxGeometry height="60" width="310" x="40" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u59_WlSWAvhTUVBORO-16" parent="S4u59_WlSWAvhTUVBORO-21" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Raspberry Pi (Edge Controller)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(balenaOS Installed)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="310" x="40" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u59_WlSWAvhTUVBORO-17" parent="S4u59_WlSWAvhTUVBORO-21" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;div&gt;Storage&amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(HDD SSD)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="55" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u59_WlSWAvhTUVBORO-18" parent="S4u59_WlSWAvhTUVBORO-21" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;div&gt;Connectivity&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(5G / WiFi /&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Ethernet)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="250" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u59_WlSWAvhTUVBORO-22" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Emergency Back Up" vertex="1">
+          <mxGeometry height="60" width="130" x="410" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u59_WlSWAvhTUVBORO-24" edge="1" parent="1" source="S4u59_WlSWAvhTUVBORO-22" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.591;entryY=0.991;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.632;exitY=-0.008;exitDx=0;exitDy=0;exitPerimeter=0;" target="S4u59_WlSWAvhTUVBORO-20" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="490" y="240" as="sourcePoint" />
+            <mxPoint x="520" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S4u59_WlSWAvhTUVBORO-26" parent="1" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" value="When power detected very low it triggers back up backtery that is used to safely shut down and try restart.&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="280" x="520" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u59_WlSWAvhTUVBORO-98" edge="1" parent="1" source="S4u59_WlSWAvhTUVBORO-20" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="358" y="100" as="sourcePoint" />
+            <mxPoint x="331" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S4u59_WlSWAvhTUVBORO-147" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="490" width="490" x="200" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u59_WlSWAvhTUVBORO-152" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AWS" vertex="1">
+          <mxGeometry height="190" width="210" x="330" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u59_WlSWAvhTUVBORO-156" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Firebase" vertex="1">
+          <mxGeometry height="70" width="210" x="215" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="S4u59_WlSWAvhTUVBORO-157" parent="1" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" value="Cloud" vertex="1">
+          <mxGeometry height="40" width="120" x="380" y="600" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
