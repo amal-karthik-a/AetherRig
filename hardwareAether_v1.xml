@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:146.0) Gecko/20100101 Firefox/146.0" version="29.2.9">
+  <diagram name="Final_Industrial_Architecture" id="AGVIB20GgfL2OpYB2B4I">
+    <mxGraphModel dx="2222" dy="1034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-3" parent="1" style="swimmable;whiteSpace=wrap;html=1;startSize=23;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="680" width="340" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-4" parent="OR7rLMlYEJ-B6IGh6V-H-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#d6b656;" value="Solar Panel&#xa;(50W Monocrystalline)" vertex="1">
+          <mxGeometry height="60" width="140" x="30" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-5" parent="OR7rLMlYEJ-B6IGh6V-H-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#d6b656;fontStyle=1" value="EPEVER MPPT Controller&#xa;(Integrated BMS &amp; RS485)" vertex="1">
+          <mxGeometry height="70" width="160" x="30" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-6" parent="OR7rLMlYEJ-B6IGh6V-H-3" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffb3b3;strokeColor=#b85450;" value="LiFePO4 Battery&#xa;(12V 20Ah)" vertex="1">
+          <mxGeometry height="80" width="140" x="30" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-7" parent="OR7rLMlYEJ-B6IGh6V-H-3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ff9999;strokeColor=#b85450;" value="12V Distribution Block&#xa;(Fused)" vertex="1">
+          <mxGeometry height="40" width="280" x="30" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-8" parent="OR7rLMlYEJ-B6IGh6V-H-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#b85450;" value="Buck Converter A&#xa;(12V -&gt; 5V 5A for Pi)" vertex="1">
+          <mxGeometry height="50" width="130" x="30" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-9" parent="OR7rLMlYEJ-B6IGh6V-H-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#b85450;" value="Buck Converter B&#xa;(12V -&gt; 5V 10A for Servos)" vertex="1">
+          <mxGeometry height="50" width="130" x="180" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-10" parent="OR7rLMlYEJ-B6IGh6V-H-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=#999999;fontSize=10;" value="DSLR DC Coupler&#xa;(12V -&gt; 7.4V)" vertex="1">
+          <mxGeometry height="40" width="100" x="30" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-11" parent="OR7rLMlYEJ-B6IGh6V-H-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=#999999;fontSize=10;" value="GoPro Hardwire Kit&#xa;(12V -&gt; 5V USB)" vertex="1">
+          <mxGeometry height="40" width="100" x="150" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-68" parent="OR7rLMlYEJ-B6IGh6V-H-3" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;POWER SUBSYSTEM (IP66 Enclosure A)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="145" x="180" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-12" parent="1" style="swimmable;whiteSpace=wrap;html=1;startSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="COMPUTE CORE (IP66 Enclosure B)" vertex="1">
+          <mxGeometry height="860" width="700" x="420" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-13" parent="OR7rLMlYEJ-B6IGh6V-H-12" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="Witty Pi 4 (L31)&#xa;(Power Scheduler &amp; RTC)" vertex="1">
+          <mxGeometry height="60" width="160" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-14" parent="OR7rLMlYEJ-B6IGh6V-H-12" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#6c8ebf;verticalAlign=top;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="680" width="620" x="40" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-15" parent="OR7rLMlYEJ-B6IGh6V-H-14" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3399ff;strokeColor=#0066cc;fontColor=#ffffff;fontStyle=1" value="Raspberry Pi CM4&#xa;(4GB RAM / 8GB eMMC / WiFi)" vertex="1">
+          <mxGeometry height="60" width="220" x="200" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-16" parent="OR7rLMlYEJ-B6IGh6V-H-14" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#b3d9ff;strokeColor=#6c8ebf;" value="NVMe SSD (500GB)&#xa;Shared Storage &amp; Buffer" vertex="1">
+          <mxGeometry height="70" width="140" x="460" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-17" parent="OR7rLMlYEJ-B6IGh6V-H-14" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ccccff;strokeColor=#666699;" value="5G Modem (SIM8200)&#xa;via USB 3.0 Enclosure" vertex="1">
+          <mxGeometry height="60" width="140" x="40" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-18" parent="OR7rLMlYEJ-B6IGh6V-H-14" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#b85450;" value="PCA9685 PWM Driver&#xa;(PTZ Control via I2C)" vertex="1">
+          <mxGeometry height="60" width="140" x="460" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-19" parent="OR7rLMlYEJ-B6IGh6V-H-14" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6ffcc;strokeColor=#82b366;" value="BME280 Sensor&#xa;(Temp/Hum/Press I2C)" vertex="1">
+          <mxGeometry height="50" width="140" x="40" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-20" parent="OR7rLMlYEJ-B6IGh6V-H-14" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#d6b656;" value="USB to RS485 Adapter&lt;br&gt;(For MPPT Battery Data)" vertex="1">
+          <mxGeometry height="40" width="140" x="40" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-21" parent="OR7rLMlYEJ-B6IGh6V-H-14" style="swimmable;whiteSpace=wrap;html=1;startSize=20;fillColor=#f5f5f5;strokeColor=#666666;verticalAlign=top;fontStyle=1" value="BalenaOS / Docker Engine" vertex="1">
+          <mxGeometry height="240" width="560" x="40" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-22" parent="OR7rLMlYEJ-B6IGh6V-H-21" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffb366;strokeColor=#d6b656;fontStyle=1" value="1. LOCAL BROKER&#xa;(Mosquitto MQTT)" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-23" parent="OR7rLMlYEJ-B6IGh6V-H-21" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b399ff;strokeColor=#666699;fontSize=10;fontStyle=1" value="5. SCHEDULER &amp;&#xa;CLOUD LINK" vertex="1">
+          <mxGeometry height="70" width="120" x="420" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-24" parent="OR7rLMlYEJ-B6IGh6V-H-21" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b3ffb3;strokeColor=#82b366;fontSize=10;fontStyle=1" value="2. TELEMETRY&#xa;AGENT" vertex="1">
+          <mxGeometry height="70" width="120" x="20" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-25" parent="OR7rLMlYEJ-B6IGh6V-H-21" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ff9999;strokeColor=#b85450;fontSize=10;fontStyle=1" value="3. CAMERA &amp;&#xa;PTZ CONTROL" vertex="1">
+          <mxGeometry height="70" width="120" x="20" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-26" parent="OR7rLMlYEJ-B6IGh6V-H-21" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99ccff;strokeColor=#6c8ebf;fontSize=10;fontStyle=1" value="4. UPLOADER &amp;&#xa;STORAGE (Samba)" vertex="1">
+          <mxGeometry height="70" width="120" x="420" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-27" edge="1" parent="OR7rLMlYEJ-B6IGh6V-H-21" source="OR7rLMlYEJ-B6IGh6V-H-23" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#FF9900;dashed=1;" target="OR7rLMlYEJ-B6IGh6V-H-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-28" edge="1" parent="OR7rLMlYEJ-B6IGh6V-H-21" source="OR7rLMlYEJ-B6IGh6V-H-24" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#FF9900;dashed=1;" target="OR7rLMlYEJ-B6IGh6V-H-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-29" edge="1" parent="OR7rLMlYEJ-B6IGh6V-H-21" source="OR7rLMlYEJ-B6IGh6V-H-25" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#FF9900;dashed=1;" target="OR7rLMlYEJ-B6IGh6V-H-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-66" parent="OR7rLMlYEJ-B6IGh6V-H-14" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Waveshare CM4-IO-BASE-B Carrier Board&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="450" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-63" edge="1" parent="OR7rLMlYEJ-B6IGh6V-H-14" source="OR7rLMlYEJ-B6IGh6V-H-26" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#999999;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.007;exitY=0.443;exitDx=0;exitDy=0;exitPerimeter=0;" target="OR7rLMlYEJ-B6IGh6V-H-16" value="Read/Upload/SMB">
+          <mxGeometry relative="1" x="0.1614" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="430" y="600" />
+              <mxPoint x="430" y="360" />
+              <mxPoint x="430" y="250" />
+              <mxPoint x="530" y="250" />
+            </Array>
+            <mxPoint x="460" y="602" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-30" parent="1" style="swimmable;whiteSpace=wrap;html=1;startSize=23;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="600" width="280" x="1160" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-31" parent="OR7rLMlYEJ-B6IGh6V-H-30" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=#333333;" value="DSLR Camera&#xa;(USB Data + DC Power)" vertex="1">
+          <mxGeometry height="60" width="140" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-32" parent="OR7rLMlYEJ-B6IGh6V-H-30" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=#333333;" value="GoPro Camera&#xa;(WiFi Data + USB Power)" vertex="1">
+          <mxGeometry height="60" width="140" x="40" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-33" parent="OR7rLMlYEJ-B6IGh6V-H-30" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=#333333;" value="3-Axis PTZ Servos&#xa;(PWM Data + 5V Power)" vertex="1">
+          <mxGeometry height="60" width="140" x="40" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-34" parent="OR7rLMlYEJ-B6IGh6V-H-30" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ccccff;strokeColor=#6c8ebf;fontStyle=1" value="External Waterproof&#xa;RJ45 Port (Ethernet)" vertex="1">
+          <mxGeometry height="60" width="140" x="40" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-67" parent="OR7rLMlYEJ-B6IGh6V-H-30" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;FIELD DEVICES (External Mount)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="75" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-35" parent="1" style="swimmable;whiteSpace=wrap;html=1;startSize=23;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" value="AWS CLOUD INFRASTRUCTURE" vertex="1">
+          <mxGeometry height="220" width="280" x="1160" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-36" parent="OR7rLMlYEJ-B6IGh6V-H-35" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;" value="AWS IoT Core&#xa;(MQTT Broker)" vertex="1">
+          <mxGeometry height="50" width="110" x="20" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-37" parent="OR7rLMlYEJ-B6IGh6V-H-35" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffffff;strokeColor=#9673a6;" value="S3 Bucket&#xa;(Image Storage)" vertex="1">
+          <mxGeometry height="80" width="110" x="150" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-38" parent="OR7rLMlYEJ-B6IGh6V-H-35" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#330000;fontStyle=1" value="WEB DASHBOARD&lt;br&gt;(React/Vite/Js)" vertex="1">
+          <mxGeometry height="60" width="240" x="20" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-39" edge="1" parent="1" source="OR7rLMlYEJ-B6IGh6V-H-4" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=3;" target="OR7rLMlYEJ-B6IGh6V-H-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-40" edge="1" parent="1" source="OR7rLMlYEJ-B6IGh6V-H-5" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=3;" target="OR7rLMlYEJ-B6IGh6V-H-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-41" edge="1" parent="1" source="OR7rLMlYEJ-B6IGh6V-H-6" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=3;" target="OR7rLMlYEJ-B6IGh6V-H-7" value="12V Rail">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-42" edge="1" parent="1" source="OR7rLMlYEJ-B6IGh6V-H-7" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=2;" target="OR7rLMlYEJ-B6IGh6V-H-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-43" edge="1" parent="1" source="OR7rLMlYEJ-B6IGh6V-H-7" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=2;" target="OR7rLMlYEJ-B6IGh6V-H-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-44" edge="1" parent="1" source="OR7rLMlYEJ-B6IGh6V-H-8" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=3;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="OR7rLMlYEJ-B6IGh6V-H-13" value="5V Main Power">
+          <mxGeometry relative="1" x="0.3917" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="20" y="545" />
+              <mxPoint x="20" y="440" />
+              <mxPoint x="20" y="30" />
+              <mxPoint x="400" y="30" />
+              <mxPoint x="400" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-45" edge="1" parent="1" source="OR7rLMlYEJ-B6IGh6V-H-13" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=3;" target="OR7rLMlYEJ-B6IGh6V-H-15" value="Gated 5V">
+          <mxGeometry relative="1" x="-0.3846" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="770" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-46" edge="1" parent="1" source="OR7rLMlYEJ-B6IGh6V-H-9" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=3;" target="OR7rLMlYEJ-B6IGh6V-H-33" value="5V 10A (High Current)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="545" />
+              <mxPoint x="400" y="570" />
+              <mxPoint x="490" y="570" />
+              <mxPoint x="730" y="570" />
+              <mxPoint x="1140" y="570" />
+              <mxPoint x="1140" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-47" edge="1" parent="1" source="OR7rLMlYEJ-B6IGh6V-H-7" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="OR7rLMlYEJ-B6IGh6V-H-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-48" edge="1" parent="1" source="OR7rLMlYEJ-B6IGh6V-H-7" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=1;" target="OR7rLMlYEJ-B6IGh6V-H-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-49" edge="1" parent="1" source="OR7rLMlYEJ-B6IGh6V-H-10" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=1;exitX=0.897;exitY=-0.013;exitDx=0;exitDy=0;exitPerimeter=0;" target="OR7rLMlYEJ-B6IGh6V-H-31" value="7.4V DC">
+          <mxGeometry relative="1" x="-0.1984" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="160" y="580" />
+              <mxPoint x="490" y="580" />
+              <mxPoint x="1110" y="580" />
+              <mxPoint x="1110" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-50" edge="1" parent="1" source="OR7rLMlYEJ-B6IGh6V-H-11" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=1;" target="OR7rLMlYEJ-B6IGh6V-H-32" value="5V USB">
+          <mxGeometry relative="1" x="-0.0371" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="340" y="640" />
+              <mxPoint x="340" y="590" />
+              <mxPoint x="1130" y="590" />
+              <mxPoint x="1130" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-51" edge="1" parent="1" source="OR7rLMlYEJ-B6IGh6V-H-15" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#0066CC;" target="OR7rLMlYEJ-B6IGh6V-H-16" value="PCIe">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-52" edge="1" parent="1" source="OR7rLMlYEJ-B6IGh6V-H-15" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#0066CC;exitX=0.196;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.936;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" target="OR7rLMlYEJ-B6IGh6V-H-17" value="USB 3.0">
+          <mxGeometry relative="1" x="0.2996" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="703" y="400" />
+              <mxPoint x="630" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-53" edge="1" parent="1" source="OR7rLMlYEJ-B6IGh6V-H-15" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#0066CC;" target="OR7rLMlYEJ-B6IGh6V-H-13" value="I2C (Control)">
+          <mxGeometry relative="1" x="0.3043" as="geometry">
+            <mxPoint y="-1" as="offset" />
+            <Array as="points">
+              <mxPoint x="540" y="250" />
+              <mxPoint x="540" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-54" edge="1" parent="1" source="OR7rLMlYEJ-B6IGh6V-H-15" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#0066CC;entryX=0.86;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.135;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;" target="OR7rLMlYEJ-B6IGh6V-H-19" value="I2C">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="310" />
+              <mxPoint x="620" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-55" edge="1" parent="1" source="OR7rLMlYEJ-B6IGh6V-H-15" style="endArrow=classic;html=1;strokeColor=#0066CC;" target="OR7rLMlYEJ-B6IGh6V-H-18" value="I2C (PTZ)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-56" edge="1" parent="1" source="OR7rLMlYEJ-B6IGh6V-H-15" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#0066CC;entryX=0.859;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="OR7rLMlYEJ-B6IGh6V-H-20" value="USB">
+          <mxGeometry relative="1" x="-0.2245" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="715" y="430" />
+              <mxPoint x="715" y="510" />
+              <mxPoint x="620" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-57" edge="1" parent="1" source="OR7rLMlYEJ-B6IGh6V-H-20" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#0066CC;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="OR7rLMlYEJ-B6IGh6V-H-5" value="RS485 (BMS Data)">
+          <mxGeometry relative="1" x="0.7019" y="4" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="400" y="540" />
+              <mxPoint x="400" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-58" edge="1" parent="1" source="OR7rLMlYEJ-B6IGh6V-H-14" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#0066CC;" target="OR7rLMlYEJ-B6IGh6V-H-31" value="USB (gphoto2)">
+          <mxGeometry relative="1" x="0.6953" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-59" edge="1" parent="1" source="OR7rLMlYEJ-B6IGh6V-H-15" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#0066CC;dashed=1;exitX=0.818;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.002;entryY=0.166;entryDx=0;entryDy=0;entryPerimeter=0;" target="OR7rLMlYEJ-B6IGh6V-H-32" value="WiFi AP">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="160" />
+              <mxPoint x="1020" y="160" />
+              <mxPoint x="1140" y="160" />
+              <mxPoint x="1140" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-60" edge="1" parent="1" source="OR7rLMlYEJ-B6IGh6V-H-18" style="endArrow=classic;html=1;strokeColor=#0066CC;" target="OR7rLMlYEJ-B6IGh6V-H-33" value="PWM Signals">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-61" edge="1" parent="1" source="OR7rLMlYEJ-B6IGh6V-H-14" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#0066CC;" target="OR7rLMlYEJ-B6IGh6V-H-34" value="Gigabit Ethernet">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1150" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-62" edge="1" parent="1" source="OR7rLMlYEJ-B6IGh6V-H-25" style="endArrow=classic;html=1;strokeColor=#999999;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.837;exitY=0.007;exitDx=0;exitDy=0;exitPerimeter=0;" target="OR7rLMlYEJ-B6IGh6V-H-16" value="Save RAW">
+          <mxGeometry relative="1" x="0.1262" y="-3" as="geometry">
+            <mxPoint x="1" as="offset" />
+            <Array as="points">
+              <mxPoint x="620" y="720" />
+              <mxPoint x="670" y="720" />
+              <mxPoint x="670" y="530" />
+              <mxPoint x="760" y="530" />
+              <mxPoint x="760" y="320" />
+              <mxPoint x="990" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-64" edge="1" parent="1" source="OR7rLMlYEJ-B6IGh6V-H-23" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#6600CC;strokeWidth=3;" target="OR7rLMlYEJ-B6IGh6V-H-36" value="5G MQTT (Telemetry/Cmds)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1100" y="675" />
+              <mxPoint x="1210" y="675" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OR7rLMlYEJ-B6IGh6V-H-65" edge="1" parent="1" source="OR7rLMlYEJ-B6IGh6V-H-26" style="endArrow=classic;html=1;strokeColor=#6600CC;strokeWidth=3;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" value="5G HTTPS (Image Upload)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="910" />
+              <mxPoint x="1150" y="910" />
+              <mxPoint x="1480" y="910" />
+              <mxPoint x="1480" y="750" />
+            </Array>
+            <mxPoint x="1420" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
